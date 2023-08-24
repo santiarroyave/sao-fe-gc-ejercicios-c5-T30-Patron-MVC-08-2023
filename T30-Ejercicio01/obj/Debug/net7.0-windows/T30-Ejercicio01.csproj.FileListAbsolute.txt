@@ -1,0 +1,16 @@
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\bin\Debug\net7.0-windows\T30-Ejercicio01.exe
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\bin\Debug\net7.0-windows\T30-Ejercicio01.deps.json
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\bin\Debug\net7.0-windows\T30-Ejercicio01.runtimeconfig.json
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\bin\Debug\net7.0-windows\T30-Ejercicio01.dll
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\bin\Debug\net7.0-windows\T30-Ejercicio01.pdb
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30_Ejercicio01.Form1.resources
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.csproj.GenerateResource.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.AssemblyInfoInputs.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.AssemblyInfo.cs
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.dll
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\refint\T30-Ejercicio01.dll
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.pdb
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\T30-Ejercicio01.genruntimeconfig.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c5-T30-Patron-MVC-08-2023\T30-Ejercicio01\obj\Debug\net7.0-windows\ref\T30-Ejercicio01.dll
