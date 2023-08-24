@@ -45,7 +45,7 @@ PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://w
         }
     }
     ```
-6. Hacer mapeo de modelos usando atributos. Se necesita importar: `using System.ComponentModel.DataAnnotations;`. *(Más info en Notas)*
+6. Hacer mapeo de modelos usando atributos.<br>Se necesita importar: `using System.ComponentModel.DataAnnotations;`. *(Más info en Notas)*
 
 ## Notas
 - Tipo de dato [Guid](https://learn.microsoft.com/es-es/dotnet/api/system.guid?view=net-7.0):
