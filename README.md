@@ -14,3 +14,13 @@ Un ORM (Mapeo Objeto-Relacional) es una herramienta de programación que permite
 - [EntityFrameworkCore.InMemory](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory/7.0.10): Este paquete nos va a ayudar a crear una BBDD en memoria y poder probar el modelo que estamos creando dentro de nuestro proyecto .NET.
 - [EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/7.0.10): Este paquete nos va a permitir conectarnos especificamente al motor con el que vamos a estar trabajando (SQL Server).<br>
 PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL/)
+
+## Notas
+- Tipo de dato [Guid](https://learn.microsoft.com/es-es/dotnet/api/system.guid?view=net-7.0):
+    - Se utiliza para almacenar identificadores únicos a nivel global.
+    - Están compuestos por una combinación de caracteres alfanuméricos y guiones.
+    - Están diseñados para ser únicos y aleatorios, y se generan utilizando algoritmos especiales para minimizar la probabilidad de colisiones.
+    ```csharp
+    // Crear un nuevo GUID aleatorio
+    Guid newGuid = Guid.NewGuid();
+    ```
