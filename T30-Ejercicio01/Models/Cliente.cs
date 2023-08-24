@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace T30_Ejercicio01.Models
 {
-    internal class Cliente
+    public class Cliente
     {
         //ATRIBUTOS
         public int id { get; set; }

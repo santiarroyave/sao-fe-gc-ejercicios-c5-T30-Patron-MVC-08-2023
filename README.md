@@ -15,6 +15,37 @@ Un ORM (Mapeo Objeto-Relacional) es una herramienta de programación que permite
 - [EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/7.0.10): Este paquete nos va a permitir conectarnos especificamente al motor con el que vamos a estar trabajando (SQL Server).<br>
 PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL/)
 
+## Ejercicio 1
+### Pasos
+1. Crear proyecto Windows Forms.
+2. Importar los 3 paquetes necesarios. (EF, EF InMemory, EF SqlServer)
+3. Estructurar las carpetas
+    - Models
+    - Views
+    - Controllers
+4. Añade el modelo *Clientes.cs*
+5. Configuración de Entity Framework
+    - Crear *Data* > *ClientesContext.cs*
+    - Hacer que la clase herede de *DbContext*. `public class ClientesContext: DbContext`
+    - Importar librerias de Entity Framework. `using Microsoft.EntityFrameworkCore;`
+    - Crear un set de datos. Esto va a representar una tabla dentro del contexto de EF. `public DbSet<Cliente> Clientes { get; set; }`
+    - Para que detecte la clase *Clientes* tendremos que importarla. `using T30_Ejercicio01.Models;`
+    - Creamos el constructor.
+    ```csharp
+    using Microsoft.EntityFrameworkCore;
+    using T30_Ejercicio01.Models;
+    // using ...;
+
+    namespace T30_Ejercicio01.Data
+    {
+        public class ClientesContext: DbContext
+        {
+            public DbSet<Cliente> Clientes { get; set; }
+            public ClientesContext(DbContextOptions<ClientesContext> options) :base(options) { }
+        }
+    }
+    ```
+
 ## Notas
 - Tipo de dato [Guid](https://learn.microsoft.com/es-es/dotnet/api/system.guid?view=net-7.0):
     - Se utiliza para almacenar identificadores únicos a nivel global.
@@ -24,3 +55,7 @@ PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://w
     // Crear un nuevo GUID aleatorio
     Guid newGuid = Guid.NewGuid();
     ```
+- Uso de **:base()** *[Visto en C4-T27 C# Herencia](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c4-T27-c-sharp-herencia-08-2023)*
+    - Cuando una subclase hereda de una clase base, el uso de :base() en su constructor llama al constructor específico de la clase base antes de continuar con la inicialización de la subclase.
+    - Si no usas :base() en el constructor de la subclase, automáticamente se llama al constructor sin parámetros de la clase base.
+    - Para llamar a un constructor específico de la clase base con parámetros, utiliza :base() y proporciona los argumentos necesarios.
