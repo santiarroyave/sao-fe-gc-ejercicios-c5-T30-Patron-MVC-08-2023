@@ -45,6 +45,7 @@ PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://w
         }
     }
     ```
+6. Hacer mapeo de modelos usando atributos. Se necesita importar: `using System.ComponentModel.DataAnnotations;`. *(Más info en Notas)*
 
 ## Notas
 - Tipo de dato [Guid](https://learn.microsoft.com/es-es/dotnet/api/system.guid?view=net-7.0):
@@ -59,3 +60,13 @@ PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://w
     - Cuando una subclase hereda de una clase base, el uso de :base() en su constructor llama al constructor específico de la clase base antes de continuar con la inicialización de la subclase.
     - Si no usas :base() en el constructor de la subclase, automáticamente se llama al constructor sin parámetros de la clase base.
     - Para llamar a un constructor específico de la clase base con parámetros, utiliza :base() y proporciona los argumentos necesarios.
+- Mapeo de modelos usando atributos
+    - Documentación EF: [es](https://learn.microsoft.com/es-es/ef/core/modeling/)
+    [en](https://learn.microsoft.com/en-us/ef/core/modeling/)
+    [Propiedades de entidad](https://learn.microsoft.com/es-es/ef/core/modeling/entity-properties)
+    - Estas etiquetas se ponen encima del atributo:
+    - [Key]: Hace referencia al id.
+    - [Required]: Para campos que tengan que ser requeridos.
+    - [MaxLength(250)]: Para poner maximo de caracteres.
+    - [ForeignKey("Nombre")]: Para la clave foranea.
+    - [NotMapped]: Evita que al hacerse el mapeo del contexto, omita este campo.
