@@ -10,23 +10,23 @@ namespace T30_Ejercicio01.Models
 {
     public class Cliente
     {
-        //ATRIBUTOS
-        [Key]
-        [MaxLength(11)]
+        // ATRIBUTOS
         public int id { get; set; }
-
-        [MaxLength(250)]
         public string name { get; set; }
-
-        [MaxLength(250)]
         public string apellido { get; set; }
-
-        [MaxLength(250)]
         public string direccion { get; set; }
-
-        [MaxLength(11)]
-        public int dni { get; set; }
-
+        public string dni { get; set; }
         public DateTime fecha { get; set; }
+
+        // Constructor
+        public Cliente(int id, string name, string apellido, string direccion, string dni, DateTime fecha)
+        {
+            this.id = id;
+            this.name = name;
+            this.apellido = apellido;
+            this.direccion = direccion;
+            this.dni = dni;
+            this.fecha = fecha;
+        }
     }
 }

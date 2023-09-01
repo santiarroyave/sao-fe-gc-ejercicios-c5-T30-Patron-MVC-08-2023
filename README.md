@@ -1,8 +1,4 @@
 # C5-T30 Patrón MVC
-
-> Estos pasos registran el intento para conectar el programa a la base de datos pero al final no se han aplicado porque es un tema que se toca más adelante en las API.<br>
-> El CRUD se aplica de manera local guardando los datos en variables en tiempo de ejecución.
-
 ## ORM
 ### ¿Qué es un ORM?
 Un ORM (Mapeo Objeto-Relacional) es una herramienta de programación que permite interactuar con bases de datos relacionales utilizando objetos y métodos en lenguajes de programación, facilitando la manipulación de datos sin necesidad de escribir consultas SQL directamente.
@@ -20,7 +16,7 @@ Un ORM (Mapeo Objeto-Relacional) es una herramienta de programación que permite
 PD: Para *PostfreSQL* se usaria este: [EntityFrameworkCore.PostgreSQL](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL/)
 
 ## Ejercicio 1
-
+> Estos pasos registran el intento para conectar el programa a la base de datos pero al final se ha hecho con EF.InMemory
 ### Pasos
 1. Crear proyecto Windows Forms.
 2. Importar los 3 paquetes necesarios. (EF, EF InMemory, EF SqlServer)
