@@ -1,6 +1,6 @@
 # C5-T30 Patrón MVC
 
-> Estos pasos registran el intento para conectar el programa a la base de datos y al final no se han aplicado ya que es un tema que se toca más adelante en las API.
+> Estos pasos registran el intento para conectar el programa a la base de datos pero al final no se han aplicado porque es un tema que se toca más adelante en las API.<br>
 > El CRUD se aplica de manera local guardando los datos en variables en tiempo de ejecución.
 
 ## ORM
